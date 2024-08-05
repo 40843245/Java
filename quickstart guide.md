@@ -42,16 +42,31 @@ public class Main {
 3. To compile `Main.java`.
    1. In terminal, change directory to the directory of the file.
    2. In terminal, type `javac Main.java` and press `Enter` to execute the command.
-![image](https://github.com/user-attachments/assets/315ea5ae-2b24-4a9d-bccc-a2f625150040)
 
 > [!IMPORTANT]
-> Here, you should see a file named `Main.class`.
+> Here, you should see a file named `Main.class` if there are NO errors.
+> If there are compilation errors, see the error message and fix it. (The issues are usually about your Java code.)
+> If there are NO compilation errors, but there are other error message, also see the error message and fix it. (But the issues are usually about command that you've just entered.)
 
 4. To run `Main.class` file.
    1. In terminal, type `java Main` and press `Enter`. <br> Now you will see Output `Hello World`.
 
-      
+> [!IMPORTANT]
+> **DON'T** type `java Main.class` in terminal. Type `java Main`.
+
+Figure to illustrate the example.
+
+![image](https://github.com/user-attachments/assets/315ea5ae-2b24-4a9d-bccc-a2f625150040)
+
+![image](https://github.com/user-attachments/assets/cf8d0c84-f25c-4845-9c43-08ac7aaaf220)
+
+![image](https://github.com/user-attachments/assets/99eb513b-d8d2-42a6-bdae-0e0f02287a6d)
+
+### Demo
+For demo, see my YT video
++ [Set system environment variable in Windows 11](https://www.youtube.com/watch?v=cuumLQEDRtc)
++ [compile .java file in terminal in Windows 11](https://www.youtube.com/watch?v=FqZhTjDUnDs)
++ [execute .class file in terminal in Windows 11](https://www.youtube.com/watch?v=e8xkB5fm6Qg)
 
 
-
-   
+## Syntax
