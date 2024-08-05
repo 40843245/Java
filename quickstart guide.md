@@ -33,8 +33,8 @@ public class Main {
 > And the class must contain exactly entry point named `main` which **must** be *public* and *static*.
 > ```
 > public static void main(String[] args) {
-    System.out.println("Hello World"); 
-  }
+>     System.out.println("Hello World"); 
+> }
 > ```
 
 3. To compile `Main.java`.
