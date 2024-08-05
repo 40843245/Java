@@ -17,7 +17,7 @@ I will only show that download from [Oracle](https://www.oracle.com/).
 Now, you can write your java code.
 
 ## Write your first java code
-1. Create a `.java` file (for example ``
+1. Create a `.java` file (for example `Main.java`)
 2. Write a java code which looks like this in text editor (such as `VSC`) or Java IDE (such as `Eclipse`). I will explain the meaning of the following Java code in later section.
 
 ```
