@@ -18,22 +18,24 @@ Now, you can write your java code.
 
 ## Write your first java code
 1. Create a `.java` file (for example ``
-2. Write a java code which looks like this in text editor (such as `VSC`) or Java IDE (such as `Eclipse`). I will explain the meaning of the following Java code.
+2. Write a java code which looks like this in text editor (such as `VSC`) or Java IDE (such as `Eclipse`). I will explain the meaning of the following Java code in later section.
 
 ```
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello World");
+    // TODO
+   System.out.println("Hello World");
   }
 }
 ```
 
 > [!IMPORTANT]
 > In a pure java code, the name of file **must** match the class name. See above example.
-> And the class must contain exactly entry point named `main` which **must** be *public* and *static*.
+> And the class must contain exactly one entry point named `main` which **must** be *public* and *static*.
+> The declaration of `main` is shown as follows.
 > ```
 > public static void main(String[] args) {
->     System.out.println("Hello World"); 
+>     // TODO
 > }
 > ```
 
@@ -46,6 +48,9 @@ public class Main {
 > Here, you should see a file named `Main.class`.
 
 4. To run `Main.class` file.
+   1. In terminal, type `java Main` and press `Enter`. <br> Now you will see Output `Hello World`.
+
+      
 
 
 
