@@ -68,5 +68,8 @@ For demo, see my YT video
 + [compile .java file in terminal in Windows 11](https://www.youtube.com/watch?v=FqZhTjDUnDs)
 + [execute .class file in terminal in Windows 11](https://www.youtube.com/watch?v=e8xkB5fm6Qg)
 
+## pure java code
+Visit [pure java code (My Notes at Github)](https://github.com/40843245/Java/blob/main/pure%20java%20code/pure%20java%20code.md)
 
-## Syntax
+## syntax
+See [syntax in Java (My Notes at Github)](https://github.com/40843245/Java/blob/main/syntax/syntax.md)
