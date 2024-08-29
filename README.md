@@ -22,6 +22,9 @@ see [Q&A.md](https://github.com/40843245/Java/blob/main/Q&A.md)
 ## pure java code or code template
 see [pure java code.md](https://github.com/40843245/Java/blob/main/pure%20java%20code.md)
 
+## some error messages
+see the directory [Error_Mesage](https://github.com/40843245/Java/tree/main/Error_Message)
+
 ## JVM
 see [JVM.md](https://github.com/40843245/Java/blob/main/JVM.md)
 
