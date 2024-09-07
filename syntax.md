@@ -1,5 +1,5 @@
 # Java
-## Syntax
+## syntax
 ### output
 > [!IMPORTANT]
 > `System` is in `java.lang` class.
@@ -47,7 +47,33 @@ or simply use a `for` loop to shallow copy each elements.
 >
 > One can use negation and `equals` method.
 
-### get input
+2. `>` : greater than (gt)
+3. `<` : less than (lt)
+4. `>=` : greater than or equal to (ge)
+5. `<=` : less than or equal to (le)
+
+### logical operator
+
+| logical operator | meaning | expression | `a` | `b` | result |
+| :- | :- | :- | :- | :- | :- |
+| `&&` | `and` | `a&&b` | `true` | `true` | `true`|
+| `&&` | `and` | `a&&b` | `false` | `true` | `false`|
+| `&&` | `and` | `a&&b` | `true` | `false` | `false`|
+| `&&` | `and` | `a&&b` | `false` | `false` | `false`|
+
+| logical operator | meaning | expression | `a` | `b` | result |
+| :- | :- | :- | :- | :- | :- |
+| `\|\|` | `or` | `a\|\|b` | `true` | `true` | `true`|
+| `\|\|` | `or` | `a\|\|b` | `false` | `true` | `true`|
+| `\|\|` | `or` | `a\|\|b` | `true` | `false` | `true`|
+| `\|\|` | `or` | `a\|\|b` | `false` | `false` | `false`|
+
+| logical operator | meaning | expression | `a` | result |
+| :- | :- | :- | :- | :- |
+| `!` | `not` | `!a` | `true` | `false` | 
+| `!` | `not` | `!a` | `false` | `true` | 
+
+### input
 To get input from input stream in Java, follow these steps.
 
 1. create an instance of `Scanner` class with input stream as an argument. As follows.
