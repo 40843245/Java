@@ -54,6 +54,9 @@ or simply use a `for` loop to shallow copy each elements.
 
 ### logical operator
 
+> [!CAUTION]
+> It has feature, short-circuit evaluation.
+
 | logical operator | meaning | expression | `a` | `b` | result |
 | :- | :- | :- | :- | :- | :- |
 | `&&` | `and` | `a&&b` | `true` | `true` | `true`|
