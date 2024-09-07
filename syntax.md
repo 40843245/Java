@@ -24,7 +24,7 @@ System.out.println("Hello, World!");
 
 ### copy 
 #### shallow copy
-- For all types.
+- For all non-primitive type. (Including `String`, for more details, see [`String` section in data type.md](#string))
 + `=`
 
 - For array.
@@ -64,6 +64,7 @@ var line = scanner.nextLine();
 
 > [!IMPORTANT]
 > The `Scanner` is in `java.util` class, thus, please import it by `import java.util.Scanner;` at the begin of the code (Of course, there are many way).
+
 ## reference
 I will provide some links about Java.
 
