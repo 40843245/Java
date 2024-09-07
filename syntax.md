@@ -1,5 +1,27 @@
 # Java
 ## Syntax
+### output
+> [!IMPORTANT]
+> `System` is in `java.lang` class.
+>
+> However, by default `java.lang` is imported.
+>
+> Thus, it is NOT needed to import it by `import java.lang.*;`
+
+For example, 
+
+to print `Hello, World!` with new line.
+
+```
+System.out.println("Hello, World!");
+```
+
+> [!TIP]
+> + To simply print without new line, use `print` method.
+> + To simply print with new line, use `println` method.
+> + To print with format without new line, use `printf` method.
+
+
 ### copy 
 #### shallow copy
 - For all types.
@@ -25,7 +47,23 @@ or simply use a `for` loop to shallow copy each elements.
 >
 > One can use negation and `equals` method.
 
+### get input
+To get input from input stream in Java, follow these steps.
 
+1. create an instance of `Scanner` class with input stream as an argument. As follows.
+
+```
+var scanner = new Scanner(System.in);
+```
+
+2. call its method to get inputs. For example
+
+```
+var line = scanner.nextLine();
+```
+
+> [!IMPORTANT]
+> The `Scanner` is in `java.util` class, thus, please import it by `import java.util.Scanner;` at the begin of the code (Of course, there are many way).
 ## reference
 I will provide some links about Java.
 
