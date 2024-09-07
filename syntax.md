@@ -1,5 +1,15 @@
 # Java
 ## Syntax
+### copy 
+#### shallow copy
+- For all types.
++ `=`
+
+- For array.
++ `java.lang.System.arraycopy` method.
++ `java.util.Arrays.copy` method.
+
+or simply use a `for` loop to shallow copy each elements.
 ### comparison
 #### referential comparison
 1. `==`: compare two instances points to same reference.
@@ -14,6 +24,7 @@
 > To compare values of two instance are NOT same.
 >
 > One can use negation and `equals` method.
+
 
 ## reference
 I will provide some links about Java.
