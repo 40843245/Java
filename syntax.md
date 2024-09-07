@@ -75,12 +75,17 @@ or simply use a `for` loop to shallow copy each elements.
 
 ### bitwise operator
 
-| logical operator | meaning | expression |
+| bitwise operator | meaning | expression |
 | :- | :- | :- |
 | `&` | `bitwise and` | `a&b` |
 | `\|` | `bitwise or` | `a\|b` |
 | `~` | `bitwise not` | `~a` |
 | `^` | `bitwise xor` | `a^b` |
+
+| bitwise operator | meaning | expression |
+| :- | :- | :- |
+| `<<` | `left shift` | `a<<b` |
+| `>>` | `right shift` | `a>>b` |
 
 
 ### input
