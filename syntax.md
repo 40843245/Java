@@ -73,6 +73,16 @@ or simply use a `for` loop to shallow copy each elements.
 | `!` | `not` | `!a` | `true` | `false` | 
 | `!` | `not` | `!a` | `false` | `true` | 
 
+### bitwise operator
+
+| logical operator | meaning | expression |
+| :- | :- | :- |
+| `&` | `bitwise and` | `a&b` |
+| `\|` | `bitwise or` | `a\|b` |
+| `~` | `bitwise not` | `~a` |
+| `^` | `bitwise xor` | `a^b` |
+
+
 ### input
 To get input from input stream in Java, follow these steps.
 
